@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fpsboost",
+  "version": "1.0.0",
+  "name": "Fpsboost",
+  "description": "Hidden Totem & Crystal Mod",
+  "authors": ["User"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fpsboost/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.fpsboost.client.HiddenModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
+
